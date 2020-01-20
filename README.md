@@ -70,6 +70,8 @@ LTS.  Simply follow the steps here: https://nextepc.org/installation/02-ubuntu/
 It is recommended to install from the source code.  However, it is not
 mandatory to test SMS.
 
+Open `http://localhost:3000` in a browser and setup IMSI / Ki / OPc for all of your SIM cards.
+
 Tips:
 - If PLMN is correct and your phone does not register to the network, check
   whether the APN is `internet`.  It can be `truphone.com` on 33C3 USIMs, and 
@@ -121,4 +123,4 @@ Run the following commands as `root`.
 
 MSISDN and IMSI
 ---------------
-**To clarify**: There are two places to map MSISDN to IMSI (OsmoHLR and Open5GS subscriber database).  Subject to tests.
+**To clarify**: OsmoHLR is the place to map IMSI to MSISDN.
